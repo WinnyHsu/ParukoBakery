@@ -2,7 +2,7 @@
   <div class="home font-montserrat">
     <!-- Banner -->
     <div class="relative w-full">
-      <img src="../assets/banner.svg" class="w-full h-auto" alt="banner" />
+      <img src="../assets/banner.png" class="w-full h-auto" alt="banner" />
       <span
         class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-6xl z-10"
         >news</span

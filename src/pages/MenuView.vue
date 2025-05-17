@@ -2,7 +2,7 @@
   <div class="home font-montserrat">
     <!-- Banner -->
     <div class="relative w-full">
-      <img src="../assets/banner.svg" class="w-full h-auto" alt="banner" />
+      <img src="../assets/banner.png" class="w-full h-auto" alt="banner" />
       <span
         class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-6xl z-10"
         >menu</span
@@ -61,17 +61,17 @@ export default {
   data() {
     return {
       breads: [
-        { name: "chocolate chip", image: require("../assets/bread5.svg") },
-        { name: "pancake", image: require("../assets/bread6.svg") },
-        { name: "baguette", image: require("../assets/bread7.svg") },
-        { name: "olive bread", image: require("../assets/bread8.svg") },
-        { name: "raisin", image: require("../assets/bread9.svg") },
-        { name: "bagel", image: require("../assets/bread10.svg") },
+        { name: "chocolate chip", image: require("../assets/bread5.png") },
+        { name: "pancake", image: require("../assets/bread6.png") },
+        { name: "baguette", image: require("../assets/bread7.png") },
+        { name: "olive bread", image: require("../assets/bread8.png") },
+        { name: "raisin", image: require("../assets/bread9.png") },
+        { name: "bagel", image: require("../assets/bread10.png") },
       ],
       goods: [
-        { name: "jam", image: require("../assets/goods1.svg") },
-        { name: "apron", image: require("../assets/goods2.svg") },
-        { name: "salad bowl", image: require("../assets/goods3.svg") },
+        { name: "jam", image: require("../assets/goods1.png") },
+        { name: "apron", image: require("../assets/goods2.png") },
+        { name: "salad bowl", image: require("../assets/goods3.png") },
       ],
     };
   },

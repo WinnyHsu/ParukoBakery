@@ -161,7 +161,7 @@ export default {
   components: {},
   methods: {
     getImageSrc(picName) {
-      return require(`../assets/${picName}.svg`);
+      return require(`../assets/${picName}.png`);
     },
   },
 };

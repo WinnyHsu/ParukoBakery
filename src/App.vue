@@ -13,7 +13,7 @@
         <router-link to="/menu">menu</router-link>
         <router-link to="/about">about</router-link>
         <router-link to="/news">news</router-link>
-        <router-link to="/shop">online shop</router-link>
+        <!-- <router-link to="/shop">online shop</router-link> -->
       </nav>
     </div>
     <div
