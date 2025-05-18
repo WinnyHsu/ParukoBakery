@@ -2,7 +2,12 @@
   <div class="home font-montserrat">
     <!-- Banner -->
     <div class="relative w-full">
-      <img src="../assets/banner.png" class="w-full h-auto" alt="banner" />
+      <img
+        loading="lazy"
+        src="../assets/banner.png"
+        class="w-full h-auto"
+        alt="banner"
+      />
       <span
         class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-6xl z-10"
         >menu</span
@@ -16,6 +21,7 @@
           <div class="group relative w-[450px] h-[300px] overflow-hidden">
             <router-link to="/menu" class="block w-full h-full">
               <img
+                loading="lazy"
                 :src="bread.image"
                 class="w-full h-full object-cover"
                 :alt="bread.name"
@@ -38,6 +44,7 @@
           <div class="group relative w-[450px] h-[300px] overflow-hidden">
             <router-link to="/menu" class="block w-full h-full">
               <img
+                loading="lazy"
                 :src="good.image"
                 class="w-full h-full object-cover"
                 :alt="good.name"

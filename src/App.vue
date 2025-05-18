@@ -2,11 +2,20 @@
   <div class="justify-center items-center bg-[#5D737A] w-full min-h-screen">
     <div class="flex items-center justify-between p-10">
       <router-link to="/">
-        <img class="w-1/3 sm:w-1/6 ml-5" src="./assets/paruko.svg" />
+        <img
+          loading="lazy"
+          class="w-1/3 sm:w-1/6 ml-5"
+          src="./assets/paruko.svg"
+        />
       </router-link>
       <!-- 漢堡 icon（手機時顯示） -->
       <button class="sm:hidden h-1/2 w-1/5 ml-10" @click="toggleMenu">
-        <img src="./assets/toggle.svg" class="w-full h-auto" alt="toggle" />
+        <img
+          loading="lazy"
+          src="./assets/toggle.svg"
+          class="w-full h-auto"
+          alt="toggle"
+        />
       </button>
       <!-- 導覽列（手機隱藏） -->
       <nav class="hidden sm:flex gap-5 text-xl font-montserrat">

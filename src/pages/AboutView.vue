@@ -2,7 +2,12 @@
   <div class="home font-montserrat">
     <!-- Banner -->
     <div class="relative w-full">
-      <img src="../assets/banner.png" class="w-full h-auto" alt="banner" />
+      <img
+        loading="lazy"
+        src="../assets/banner.png"
+        class="w-full h-auto"
+        alt="banner"
+      />
       <span
         class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-6xl z-10"
         >about</span
@@ -20,6 +25,7 @@
       </div>
       <div class="w-1/2 justify-end flex">
         <img
+          loading="lazy"
           src="../assets/about1.png"
           class="w-full h-full object-cover"
           alt="bread"
@@ -30,6 +36,7 @@
     <div class="contact p-10 flex w-screen">
       <div class="w-1/2 justify-end flex">
         <img
+          loading="lazy"
           src="../assets/about2.png"
           class="w-full h-full object-cover"
           alt="bread"

@@ -4,6 +4,7 @@
     <div class="sm:hidden mb-10">
       <router-link to="/news"
         ><img
+          loading="lazy"
           src="../assets/arrowl.svg"
           class="w-[15px] h-full object-cover"
           alt="arrow"
@@ -17,6 +18,7 @@
     <!-- News -->
     <div v-if="currentNews" class="relative w-full space-y-5">
       <img
+        loading="lazy"
         :src="getImageSrc(currentNews.pic)"
         class="w-full h-full object-cover"
         alt="newsPic"
@@ -40,6 +42,7 @@
           >
             <section class="text-white flex items-center space-x-10">
               <img
+                loading="lazy"
                 src="../assets/arrowl.svg"
                 class="w-[15px] h-full object-cover"
                 alt="arrow"
@@ -79,6 +82,7 @@
               </p>
             </section>
             <img
+              loading="lazy"
               src="../assets/arrow.svg"
               class="ml-10 w-[15px] h-full object-cover"
               alt="arrow"

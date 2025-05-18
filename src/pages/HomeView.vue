@@ -16,6 +16,7 @@
               <router-link to="/menu" class="block w-full h-full">
                 <!-- 圖片 -->
                 <img
+                  loading="lazy"
                   src="../assets/bread.png"
                   class="w-full h-full object-cover"
                   alt="plain toast"
@@ -41,6 +42,7 @@
               <router-link to="/menu" class="block w-full h-full">
                 <!-- 圖片 -->
                 <img
+                  loading="lazy"
                   src="../assets/bread2.png"
                   class="w-full h-full object-cover"
                   alt="french loaf"
@@ -64,6 +66,7 @@
               <router-link to="/menu" class="block w-full h-full">
                 <!-- 圖片 -->
                 <img
+                  loading="lazy"
                   src="../assets/bread3.png"
                   class="w-full h-full object-cover"
                   alt="crossiant"
@@ -89,6 +92,7 @@
               <router-link to="/about" class="block w-full h-full">
                 <!-- 圖片 -->
                 <img
+                  loading="lazy"
                   src="../assets/chef.png"
                   class="w-full h-full object-cover"
                   alt="about us"
@@ -113,6 +117,7 @@
               <router-link to="/menu" class="block w-full h-full">
                 <!-- 圖片 -->
                 <img
+                  loading="lazy"
                   src="../assets/cookie.png"
                   class="w-full h-full object-cover"
                   alt="french loaf"
@@ -138,6 +143,7 @@
               <router-link to="/menu" class="block w-full h-full">
                 <!-- 圖片 -->
                 <img
+                  loading="lazy"
                   src="../assets/cake.png"
                   class="w-full h-full object-cover"
                   alt="starwberry tart"
